@@ -1,0 +1,85 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.home-container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230611/pngtree-employees-at-tables-in-this-purple-office-image_2961756.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden; /* Hide overflow to prevent scrolling issues */
+  position: relative; /* Ensure positioning context for sidebar */
+}
+
+.sidebar-open .main-content {
+  margin-left: 250px; /* Adjust based on sidebar width */
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  transition: margin-left 0.3s ease;
+}
+
+.staffheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark background for header */
+  color: white;
+  border-bottom: 1px solid #ddd; /* Optional border */
+  position: fixed; /* Fix header at the top */
+  width: 100%; /* Full width */
+  top: 0; /* Stick to the top */
+  z-index: 1001; /* Ensure it stays above the sidebar */
+}
+
+.menu-icon {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+.staffheader-title {
+  flex: 1;
+  text-align: center;
+  font-size: 24px;
+  margin: 0;
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px; /* Sidebar width */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  color: white;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000; /* Ensure sidebar is below the header */
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

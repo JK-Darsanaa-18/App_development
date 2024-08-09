@@ -1,0 +1,149 @@
+{
+  "staff": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 30,
+      "gender": "Male",
+      "phoneNo": "123-456-7890",
+      "address": "123 Elm Street",
+      "shift": "Day",
+      "dob": "1993-01-01",
+      "email": "johndoe@example.com",
+      "completionStatus": "Completed"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "age": 28,
+      "gender": "Female",
+      "phoneNo": "098-765-4321",
+      "address": "456 Oak Avenue",
+      "shift": "Night",
+      "dob": "1995-05-15",
+      "email": "janesmith@example.com",
+      "completionStatus": "In Progress"
+    },
+    {
+      "id": 3,
+      "name": "Geetha sri M",
+      "age": "20",
+      "gender": "Female",
+      "phoneNo": "09360531185",
+      "address": "1/17 palaniyandavar kovil thottam",
+      "shift": "Day",
+      "dob": "2005-03-12",
+      "email": "727722euai018@skcet.ac.in",
+      "completionStatus": "Not Started"
+    },
+    {
+      "id": 4,
+      "name": "Geetha sri M",
+      "age": "45",
+      "gender": "Female",
+      "phoneNo": "09360531185",
+      "address": "1/17 palaniyandavar kovil thottam",
+      "shift": "Day",
+      "dob": "2006-05-31",
+      "email": "727722euai044@skcet.ac.in",
+      "completionStatus": "Not Started"
+    },
+    {
+      "id": 5,
+      "name": "Geetha sri M",
+      "age": "23",
+      "gender": "Female",
+      "phoneNo": "09360531185",
+      "address": "1/17 palaniyandavar kovil thottam",
+      "shift": "Afternoon",
+      "dob": "2008-12-10",
+      "email": "727722euai026@skcet.ac.in",
+      "completionStatus": "Not Started"
+    },
+    {
+      "id": 6,
+      "name": "Geethan",
+      "age": "23",
+      "gender": "Male",
+      "phoneNo": "09360531185",
+      "address": "1/17 palaniyandavar kovil thottam",
+      "shift": "Afternoon",
+      "dob": "3213-03-12",
+      "email": "727722euai020@skcet.ac.in",
+      "completionStatus": "Not Started"
+    },
+    {
+      "id": 7,
+      "name": "Geetha sri M",
+      "age": "23",
+      "gender": "Male",
+      "phoneNo": "09360531185",
+      "address": "1/17 palaniyandavar kovil thottam",
+      "shift": "Day",
+      "dob": "3211-12-12",
+      "email": "727722euai018@skcet.ac.in",
+      "completionStatus": "Not Started"
+    },
+    {
+      "id": 8,
+      "name": "Geetha sri M",
+      "age": "23",
+      "gender": "Male",
+      "phoneNo": "09360531185",
+      "address": "1/17 palaniyandavar kovil thottam",
+      "shift": "Night",
+      "dob": "2005-12-12",
+      "email": "727722euai004@skcet.ac.in",
+      "completionStatus": "Not Started"
+    }
+  ],
+  "users": [
+    {
+      "email": "727722euai018@gmail.com",
+      "password": "Geetha@0802",
+      "id": 1
+    },
+    {
+      "email": "727722euai020@skcet.ac.in",
+      "password": "nsbxT3",
+      "id": 2
+    },
+    {
+      "email": "727722euai020@skcet.ac.in",
+      "password": "kfgburgt7y",
+      "id": 3
+    },
+    {
+      "email": "727722euai018@skcet.ac.in",
+      "password": "ajdgafsy",
+      "id": 4
+    },
+    {
+      "email": "727722euai018@skcet.ac.in",
+      "password": "bdgahfyRDE",
+      "id": 5
+    },
+    {
+      "email": "727722euai018@skcet.ac.in",
+      "password": " MNBFF YG",
+      "id": 6
+    }
+  ],
+  "shifts": [
+    {
+      "id": "123",
+      "name": "sales",
+      "date": "2024-08-17",
+      "time": "9am-12am",
+      "location": "Coimbatore",
+      "requiredStaff": "1",
+      "staffDetails": [
+        {
+          "id": 1,
+          "name": "John Doe"
+        }
+      ]
+    }
+  ],
+  "schedules": []
+}

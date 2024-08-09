@@ -1,0 +1,70 @@
+/* Container for the entire report page */
+.attendance-report-container {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9; /* Light background for a clean look */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align content horizontally */
+}
+
+/* Heading styles */
+.attendance-report-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333; /* Darker text color for better readability */
+  font-weight: bold;
+  text-align: center; /* Center the heading */
+}
+
+/* Styles for each report section */
+.report-section {
+  width: 100%;
+  max-width: 800px; /* Max width for the report section */
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for card effect */
+  background-color: #fff; /* White background for contrast */
+}
+
+/* Center the table within its section */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table header and cell styling */
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Table header background and text color */
+th {
+  background-color: #52c8e8; /* Blue background for header */
+  color: #fff; /* White text for header */
+}
+
+/* Table row styling */
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Zebra stripes for rows */
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; /* Primary button color */
+  color: #fff; /* Button text color */
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}

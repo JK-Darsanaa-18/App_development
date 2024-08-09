@@ -1,0 +1,56 @@
+/* src/ViewSchedule.css */
+.view-schedule-container {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 0;
+  transition: margin-left 0.3s ease;
+}
+
+.sidebar-open .content {
+  margin-left: 250px; /* Adjust this based on your sidebar width */
+}
+
+.sidebar-toggle-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: #333;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000; /* Make sure the button is above other elements */
+}
+
+.view-schedule-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+.staff-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.stdd {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.stdd p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.stdd p strong {
+  color: #555;
+}
