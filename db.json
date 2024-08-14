@@ -1,0 +1,144 @@
+{
+  "users": [
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "Dharsh@0",
+      "id": 1
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 2
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 3
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 4
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 5
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 6
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 7
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 8
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 9
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 10
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 11
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 12
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 13
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 14
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 15
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 16
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 17
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 18
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 19
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "skcet@123",
+      "id": 20
+    }
+  ],
+  "shifts": [
+    {
+      "id": "123",
+      "name": "Manager",
+      "date": "2024-08-31",
+      "time": "2am-12pm",
+      "location": "coimbatore",
+      "requiredStaff": "2",
+      "staffDetails": [
+        {
+          "id": 1,
+          "name": "Darsanaa"
+        },
+        {
+          "id": 2,
+          "name": "akshu"
+        }
+      ]
+    },
+    {
+      "id": "4566",
+      "name": "Manager",
+      "date": "2024-08-18",
+      "time": "09:00-17:00",
+      "location": "coimbatore",
+      "requiredStaff": "2",
+      "staffDetails": [
+        {
+          "id": 1,
+          "name": "Manager"
+        },
+        {
+          "id": 2,
+          "name": "firsteybucket.s3.ap-southeast-2.amazonaws.com"
+        }
+      ],
+      "start": "2024-08-18T09:00",
+      "end": "2024-08-18T17:00"
+    }
+  ]
+}
